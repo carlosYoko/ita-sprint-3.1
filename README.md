@@ -1,7 +1,7 @@
 # LearnYouNode
 
 Trabajo del Sprint 3.1 de IT-Academy en la especialización de Node.js.<br>
-Serie de ejercicios del conjunto learnyounode (nodeschool.io) de los cuales incluyen: manejo de eventos, manipulación de archivos, red, HTTTP, modulos, etc...<br>
+Serie de ejercicios del conjunto learnyounode (nodeschool.io) de los cuales incluyen: manejo de eventos, manipulación de archivos, red, HTTP, modulos, etc...<br>
 Incluye codigo fuente en TypeScript, testing e integración continua (CI) con GitHub Actions.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)

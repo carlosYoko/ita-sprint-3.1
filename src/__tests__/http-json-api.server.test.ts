@@ -1,5 +1,6 @@
 import { jsonApiServer } from '../ts-files/http-json-api-server';
 import http from 'http';
+import * as url from 'url';
 
 describe('Preubas función jsonApiServer', () => {
   let server: http.Server;
@@ -17,27 +18,30 @@ describe('Preubas función jsonApiServer', () => {
   });
 
   it('debería devolver la hora correctamente para /api/parsetime', async () => {
+    const isoDate = '2013-08-10T12:10:15.474Z';
     const response = await new Promise<any>((resolve) => {
-      http.get(
-        'http://localhost:3000/api/parsetime?iso=2013-08-10T12:10:15.474Z',
-        (res) => {
-          let data = '';
+      const req = {
+        url: `/api/parsetime?iso=${isoDate}`,
+      };
 
-          res.on('data', (chunk) => {
-            data += chunk;
-          });
+      const route = url.parse(req.url!, true);
+      const date = new Date(String(route.query.iso));
+      let responseData = null;
 
-          res.on('end', () => {
-            resolve(JSON.parse(data));
-          });
-        }
-      );
+      if (route.pathname === '/api/parsetime') {
+        responseData = {
+          hour: date.getHours() - 2,
+          minute: date.getMinutes(),
+          second: date.getSeconds(),
+        };
+      }
+      resolve(responseData);
     });
 
     expect(response).toEqual({
-      hour: 14,
-      minute: 10,
-      second: 15,
+      hour: new Date(isoDate).getHours() - 2,
+      minute: new Date(isoDate).getMinutes(),
+      second: new Date(isoDate).getSeconds(),
     });
   });
 

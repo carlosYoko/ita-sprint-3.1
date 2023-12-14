@@ -3,3 +3,4 @@ export function sayHello() {
 }
 
 sayHello();
+console.log('hello');

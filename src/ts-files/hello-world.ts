@@ -1,6 +1,5 @@
 export function sayHello() {
-  console.log('HELLO WORLD');
+  console.log('HELLO WORL');
 }
 
 sayHello();
-console.log('hello');

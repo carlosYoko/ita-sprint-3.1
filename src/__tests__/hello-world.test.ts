@@ -1,6 +1,4 @@
-function sayHello() {
-  console.log('HELLO WORLD');
-}
+import { sayHello } from '../ts-files/hello-world';
 
 describe('Pruebas para hello-world', () => {
   it('debería imprimir HELLO WORLD en la consola', () => {

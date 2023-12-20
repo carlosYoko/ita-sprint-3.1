@@ -17,13 +17,13 @@ Introducción a Node.js y programación del lado del servidor.
 
 - Uso del módulo "async" para trabajar con funciones asíncronas y devoluciones de llamada.
 
-⭐ Nivel 1
+⭐ Nivel 1  
 Utiliza el programa LearnYouNode para verificar que los ejercicios están bien resueltos.
 
-⭐⭐ Nivel 2
+⭐⭐ Nivel 2  
 Crea tus propios scripts (y el escenario necesario) para probar cada uno de ellos.
 
-⭐⭐⭐ Nivel 3
+⭐⭐⭐ Nivel 3  
 Realiza los ejercicios con TypeScript y agrega pruebas para verificar el correcto funcionamiento de cada uno.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)

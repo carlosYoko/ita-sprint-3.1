@@ -1,4 +1,4 @@
-# TodoList Clean Architecture
+# LearnYouNode
 
 Serie de ejercicios del conjunto learnyounode (nodeschool.io) de los cuales incluyen: manejo de eventos, manipulación de archivos, red, HTTTP, modulos, etc...  
 Incluye codigo fuente en TypeScript, testing e integración continua (CI) con GitHub Actions.

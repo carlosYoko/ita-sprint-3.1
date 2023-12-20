@@ -1,8 +1,28 @@
 # TodoList Clean Architecture
 
-Trabajo del Sprint 4.1 de IT-Academy en la especialización de Node.js.<br>
-Se trata de una API res utilizando Clean Architecture y Express sin persistencia de datos.<br>
+Serie de ejercicios del conjunto learnyounode (nodeschool.io) de los cuales incluyen: manejo de eventos, manipulación de archivos, red, HTTTP, modulos, etc...  
 Incluye codigo fuente en TypeScript, testing e integración continua (CI) con GitHub Actions.
+
+##### Trabajo del Sprint 3.1 de IT-Academy en la especialización de Node.js.
+
+Introducción a Node.js y programación del lado del servidor.
+
+- Uso del módulo "fs" para leer y escribir archivos en el sistema de archivos del servidor.
+
+- Creación de un servidor web básico y procesamiento de las solicitudes HTTP entrantes.
+
+- Envío de solicitudes HTTP a otros servidores y procesamiento de las respuestas.
+
+- Uso del módulo "async" para trabajar con funciones asíncronas y devoluciones de llamada.
+
+⭐ Nivel 1
+Utiliza el programa LearnYouNode para verificar que los ejercicios están bien resueltos.
+
+⭐⭐ Nivel 2
+Crea tus propios scripts (y el escenario necesario) para probar cada uno de ellos.
+
+⭐⭐⭐ Nivel 3
+Realiza los ejercicios con TypeScript y agrega pruebas para verificar el correcto funcionamiento de cada uno.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
@@ -11,7 +31,7 @@ Incluye codigo fuente en TypeScript, testing e integración continua (CI) con Gi
 Para clonar el repositorio e instalar las dependencias necesarias, usa los siguientes comandos:
 
 ```bash
-git clone https://github.com/carlosYoko/ita-sprint-4.1.git
+git clone https://github.com/carlosYoko/ita-sprint-3.1.git
 cd ita-sprint-3.1
 npm install
 ```
